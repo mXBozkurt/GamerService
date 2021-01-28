@@ -7,7 +7,7 @@ namespace Ödev1
         static void Main(string[] args)
         {
             GamerManager gamerManager = new GamerManager(new UserValidationManager());
-            gamerManager.Add(new Gamer { Id = 1, BirthYear = 1985, FirstName = "ENGİN", LastName = "DEMİROĞ", IdentityNumber = 12345 });
+            gamerManager.Add(new Gamer { Id = 1, BirthYear = 1985, FirstName = "", LastName = "", IdentityNumber = 12345 });
             Console.WriteLine("Hello World!");
         }
     }
